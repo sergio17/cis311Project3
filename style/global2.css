@@ -1,0 +1,246 @@
+body{
+	background-image: url('../images/carworldbackground.png');
+	background-repeat: repeat-x;
+	background-color: #343333
+}
+#container{
+	margin: 0 auto 0 auto;
+	width: 960px;
+	/*height: 100%;*/
+	position: relative;
+}
+#header{
+	float: left;
+	width:960px;
+	height: 140px;
+	/*background-color: rgba(255, 120, 0, 1.0);*/
+	background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF7800, #FFB573); /* Standard syntax (must be last) */
+	
+	
+}
+#logo{
+	float: left;
+	margin-left: 10px;
+}
+#navMenu{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 960px;
+	height: 30px;
+	background: -webkit-linear-gradient(0deg, #028E9B, #5EC4CD); /* For Safari */
+	background: -o-linear-gradient(0deg, #028E9B, #5EC4CD); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg,#028E9B, #5EC4CD); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #1D8B00, #14D100); /* Standard syntax (must be last) */
+}
+.nav{
+	margin-left: auto;
+	margin-right: auto;
+	width:750px;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+	z-index: 9999999 !important;
+}
+.nav li{
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	background: -webkit-linear-gradient(0deg, #028E9B, #5EC4CD); /* For Safari */
+	background: -o-linear-gradient(0deg, #028E9B, #5EC4CD); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #028E9B, #5EC4CD); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #1D8B00, #14D100); /* Standard syntax (must be last) */
+	z-index: 9999999 !important;
+	width: 150px;
+	border-radius:6px;
+}
+.nav li a{
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+	text-decoration: none;
+	height: 30px;
+	width: 150;
+	display: block;
+	color: #FFF;
+	font-size: 18px;
+	/*border: 1px solid #FFF;*/
+	text-shadow: 1px 1px 1px #000;
+}
+.nav ul{
+	position: absolute;
+	visibility: hidden;
+	top: 30px;
+}
+.nav li:hover ul{
+	visibility: visible;
+}
+
+#navMenu li:hover{
+	background-color: #09F;
+	color: #000;
+}
+.nav li:hover ul li a:hover{
+	background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF0000, #FFB573); /* Standard syntax (must be last) */
+	border-radius: 6px;
+	color: #000;
+}
+#navMenu a:hover{
+	color: #000;
+}
+#sideNav{
+	background: -webkit-linear-gradient(0deg, #FFB573, #FF7800); /* For Safari */
+	background: -o-linear-gradient(0deg, #FFB573, #FF7800); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FFB573, #FF7800); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FFB573, #FF7800); /* Standard syntax (must be last) */
+	float: left;
+	width: 960px;
+	font-family: sans-serif;/*
+	#FF7800, #FFB573
+	rgba(255, 120, 00, 0.75)
+	rgba(255, 181, 115, 0.50)*/
+}
+#content{
+	background-color: #FFAA00;
+	float: right;
+	width: 960px;
+	font-family: sans-serif;/*
+	#FF7800, #FFB573
+	rgba(255, 120, 00, 0.75)
+	rgba(255, 181, 115, 0.50)*/
+}
+#content h1{
+	font-family: sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 140px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+#contentRight{
+	/*background-color: #FF;*/
+	float: left;
+	width: 960px;
+	font-family: sans-serif;/*
+	#FF7800, #FFB573
+	rgba(255, 120, 00, 0.75)
+	rgba(255, 181, 115, 0.50)*/
+}
+#contentRight h1{
+	font-family: sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 140px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#contentLeft{
+	/*background-color: #FF;*/
+	float: left;
+	width: 960px;
+	font-family: sans-serif;/*
+	#FF7800, #FFB573
+	rgba(255, 120, 00, 0.75)
+	rgba(255, 181, 115, 0.50)*/
+}
+#contentLeft h1{
+	font-family: sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 140px;
+	text-shadow: 1px 1px 1px #000;
+}
+#management{
+	padding: 10px;
+	clear:both;
+	position: relative;
+	margin-top: 40px;
+	max-width: 960px;
+	background-color: rgba(255, 120, 0, 1.0);
+	border-radius:6px;	
+}
+#details{
+	padding: 10px;
+	clear:both;
+	position: relative;
+	margin-top: 40px;
+	max-width: 960px;
+	background-color: rgba(255, 120, 0, 1.0);
+	border-radius:6px;
+	text-align: left;	
+}
+#leftdetails{
+	float: left;
+	max-width: 480px;
+	margin-left: 10px;
+	background-color: #FFB573;
+}
+
+#contactus{
+
+}
+#sports1{
+background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF0000, #FF5600); /* Standard syntax (must be last) */
+	border-radius: 6px;
+	color: #000;
+}
+#sports2{
+background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF0000, #FF5600); /* Standard syntax (must be last) */
+	border-radius: 6px;
+	color: #000;
+}
+
+#sports3{
+background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF0000, #FF5600); /* Standard syntax (must be last) */
+	border-radius: 6px;
+	color: #000;
+}
+#pickup1{
+background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF0000, #FF5600); /* Standard syntax (must be last) */
+	border-radius: 6px;
+	color: #000;
+}
+#pickup2{
+background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF0000, #FF5600); /* Standard syntax (must be last) */
+	border-radius: 6px;
+	color: #000;
+}
+
+#pickup3{
+background: -webkit-linear-gradient(0deg, #FF7800, #FFB573); /* For Safari */
+	background: -o-linear-gradient(0deg, #FF7800, #FFB573); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #FF7800, #FFB573); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #FF0000, #FF5600); /* Standard syntax (must be last) */
+	border-radius: 6px;
+	color: #000;
+}
+
+
+
+
