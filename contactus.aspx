@@ -141,15 +141,15 @@
                                                 <tr>
                                                         <td style="padding-left:23px" class="style1">Gender: </td>
                                                         <td>
-                                                         <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                                                         <asp:ListItem value="male">Male</asp:ListItem>
-                                                         <asp:ListItem value="female">Female</asp:ListItem>
+                                                         <asp:RadioButtonList ID="Gender" runat="server">
+                                                         <asp:ListItem value="Male">Male</asp:ListItem>
+                                                         <asp:ListItem value="Female">Female</asp:ListItem>
                                                          </asp:RadioButtonList>
                                                 </tr>
                                                 <tr>
                                                         <td style="padding-left:18px" class="style1">Purpose: </td>
                                                         <td>
-                                                            <asp:DropDownList ID="DropDownList1" runat="server">
+                                                            <asp:DropDownList ID="Purpose" runat="server">
                                                                 <asp:ListItem>General</asp:ListItem>
                                                                 <asp:ListItem>Inquiry</asp:ListItem>
                                                                 <asp:ListItem>Feedback</asp:ListItem>
@@ -190,6 +190,8 @@
                                                                 <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
                                                                   <br />
                                                                  <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                                                                 <br />
+                                                                 <a href="ContactList.aspx">View Contact List</a>
                                                         </td>
                                                 </tr>
                                         </table>
