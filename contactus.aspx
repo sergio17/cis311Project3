@@ -1,7 +1,11 @@
-﻿<!DOCTYPE html><html>
-        <head>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contactList.aspx.vb" Inherits="contactList" %>
+<%@ Import Namespace="System.Data" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+                
                 <title>Contact Us</title>
                 <link rel="stylesheet" type="text/css" href="style/global.css"/>
 
@@ -130,16 +134,17 @@
                                                 <tr>
                                                         <td style="padding-left:31px" class="style1">Phone: <span style="color:red">*</span></td>
                                                         <td> 
-                                                            <asp:TextBox ID="Phone" runat="server"></asp:TextBox>
+                                                            <asp:TextBox ID="TxtNo" runat="server"></asp:TextBox>
+                                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Enter valid Phone number" ControlToValidate="TxtNo" ValidationExpression="(\d{3})(\d{3})(\d{4})" ></asp:RegularExpressionValidator>
                                                         </td>
                                                 </tr>
                                                 <tr>
                                                         <td style="padding-left:23px" class="style1">Gender: </td>
                                                         <td>
-                                                            <asp:RadioButton ID="Male" runat="server" />
-                                                            Male
-                                                            <asp:RadioButton ID="Female" runat="server" />
-                                                            Female</td>
+                                                         <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                                                         <asp:ListItem value="male">Male</asp:ListItem>
+                                                         <asp:ListItem value="female">Female</asp:ListItem>
+                                                         </asp:RadioButtonList>
                                                 </tr>
                                                 <tr>
                                                         <td style="padding-left:18px" class="style1">Purpose: </td>
@@ -156,19 +161,15 @@
                                                 <tr>
                                                         <td class="style1"> How did<Br> you hear<br> about us?</td>
                                                         <td>
-                                                            <asp:CheckBox ID="NewspaperAd" runat="server" />
-                                                            Newspaper Ad &nbsp;&nbsp;
-                                                            <asp:CheckBox ID="Billboard" runat="server" />
-                                                            Billboard<br>
-                                                            <asp:CheckBox ID="SocialMedia" runat="server" />
-                                                            Social Media &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:CheckBox ID="WordOfMouth" runat="server" />
-                                                            Word of mouth<br>
-                                                            <asp:CheckBox ID="WalkIn" runat="server" />
-                                                            Walk-In &nbsp;&nbsp;&nbsp;
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:CheckBox ID="Other" runat="server" />
-                                                            Other</td>
+                                                            <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+                                                                <asp:ListItem>Newspaper Ad</asp:ListItem>
+                                                                <asp:ListItem>Billboard</asp:ListItem>
+                                                                <asp:ListItem>Social Media</asp:ListItem>
+                                                                <asp:ListItem>Word of Mouth</asp:ListItem>
+                                                                <asp:ListItem>Walk-in</asp:ListItem>
+                                                                <asp:ListItem>Other</asp:ListItem>
+                                                            </asp:CheckBoxList>
+
                                                         
                                                 </tr>
                                                 <tr>
@@ -186,7 +187,9 @@
                                                 <tr>
 
                                                         <td class="style1">
-                                                                <input type="submit" value="Submit">
+                                                                <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+                                                                  <br />
+                                                                 <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
                                                         </td>
                                                 </tr>
                                         </table>
