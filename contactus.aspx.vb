@@ -8,7 +8,7 @@ Public Class contactus
         ContactList = txtFirstName.Text & " " & txtLastName.Text & " | " & txtEmail.Text & " | " & TxtNo.Text & " | " & Gender.Text & " | " & Purpose.Text & " | "
         For i = 0 To CheckBoxList1.Items.Count - 1
             If CheckBoxList1.Items(i).Selected Then
-                ContactList &= CheckBoxList1.Items(i).Text & "<br/>"
+                ContactList &= CheckBoxList1.Items(i).Text & ", "
             End If
         Next
         ContactList &= " | " & txtComments.Text & " ~ "

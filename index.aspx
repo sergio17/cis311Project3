@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 	<head>
@@ -14,7 +14,7 @@
 	<body>
 		<div id="container">
 			<div id="header">
-				<div id="logo"><a href="index.html"><img src="./images/globe.gif"></a></div>
+				<div id="logo"><a href="index.aspx"><img src="./images/globe.gif"></a></div>
 				<form id="cse-search-box" action="http://google.com/cse">
   				<input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here" />
 				  <input type="hidden" name="ie" value="UTF-8" />
@@ -23,20 +23,11 @@
 				</form>
 				<div id="navMenu" align="center">
 					<ul class="nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="products.html">Products</a>
-						<ul>
-							<li><a href="sedan.html">Sedan</a></li>
-							<li><a href="suv.html">SUV</a></li>
-							<li><a href="sports.html">Sports</a></li>
-							<li><a href="pickup.html">Pickup Truck</a></li>
-
-						</ul>
-
-						</li>
-						<li><a href="support.html">Support</a>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="index.aspx">Home</a></li>
+						<li><a href="products.aspx">Products</a></li>
+						<li><a href="support.aspx">Support</a>
+						<li><a href="about.aspx">About Us</a></li>
+						<li><a href="contactus.aspx">Contact Us</a></li>
 					</ul>
 			</div>
 							
@@ -80,7 +71,7 @@
 				<div id="productlist">
 					<ul>
 						<li class="first" id="firstList">
-							<a href="sports.html">
+							<a href="sports.aspx">
 							<img src="images/lambo_home.jpg">
 							<div class="prodparagragh">2013 Lamborghini Aventador <br>
 							<ol>
@@ -93,7 +84,7 @@
 								</ol></div></a>
 						</li>
 						<li class="first">
-							<a href="sedan.html">
+							<a href="sedan.aspx">
 							<img src="images/2015-Audi-S3_thumb3.jpg">
 							<div class="prodparagragh">2015 Audi S3 <br>
 							<ol>
@@ -106,7 +97,7 @@
 								</ol></div></a>
 						</li>
 						<li class="first">
-							<a href="suv.html">
+							<a href="suv.aspx">
 							<img src="images/r-evoque-thumb2.jpg">
 							<div class="prodparagragh">2013 Range Rover Evoque <br>
 							<ol>
@@ -121,7 +112,7 @@
 						</li>
 						<li class="first" id="lastList">
 
-							<a href="pickup.html">
+							<a href="pickup.aspx">
 							<img src="images/dodge_ram_thumb3.jpg">
 							<div class="prodparagragh">2014 RAM 1500<br>
 							<ol>
@@ -142,11 +133,11 @@
 					<li class="firstLi"><h4>Helpful Links</h4>
 					<hr>
 					<ul class="secondLi">
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="products.html">Products</a></li>
-						<li><a href="contactus.html">Contact Us</a></li>
-						<li><a href="support.html">Support</a></li>
-						<li><a href="sitemap.html">Sitemap</a></li>
+						<li><a href="about.aspx">About Us</a></li>
+						<li><a href="products.aspx">Products</a></li>
+						<li><a href="contactus.aspx">Contact Us</a></li>
+						<li><a href="support.aspx">Support</a></li>
+						<li><a href="sitemap.aspx">Sitemap</a></li>
 					</ul></li>
 					<li><h4>Contact Us</h4>
 					<hr><p>Carworld Incorporated <br>
@@ -157,7 +148,7 @@
 					</li>
 					<li><h4>Administrator</h4>
 						<hr>
-						<a href="admin.html">Admin Page</a>
+						<a href="admin.aspx">Admin Page</a>
 					</li>
 					<li class="lastLi"><h4>Socialize with us</h4>
 						<hr>

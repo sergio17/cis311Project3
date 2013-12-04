@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 	<head>
@@ -14,7 +14,7 @@
 	<body>
 		<div id="container">
 			<div id="header">
-				<div id="logo"><a href="index.html"><img src="./images/globe.gif"></a></div>
+				<div id="logo"><a href="index.aspx"><img src="./images/globe.gif"></a></div>
 				<form id="cse-search-box" action="http://google.com/cse">
   				<input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here" />
 				  <input type="hidden" name="ie" value="UTF-8" />
@@ -24,20 +24,11 @@
 
 				<div id="navMenu" align="center">
 					<ul class="nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="products.html">Products</a>
-						<ul>
-							<li><a href="sedan.html">Sedan</a></li>
-							<li><a href="suv.html">SUV</a></li>
-							<li><a href="sports.html">Sports</a></li>
-							<li><a href="pickup.html">Pickup Truck</a></li>
-
-						</ul>
-
-						</li>
-						<li><a href="support.html">Support</a>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="index.aspx">Home</a></li>
+						<li><a href="products.aspx">Products</a></li>
+						<li><a href="support.aspx">Support</a>
+						<li><a href="about.aspx">About Us</a></li>
+						<li><a href="contactus.aspx">Contact Us</a></li>
 					</ul>
 				</div><!--end of navMenu-->
 			</div>
@@ -48,33 +39,33 @@
 					<table id="siteM">	
 						<tr>
 							<th>Navigation Section</th>
-							<th><a href="products.html" style="color: #FFFFFF">Products</a></th>
+							<th>Updates</th>
 							<th>Administrator Section</th>
 						</tr>
 						<tr>
-							<td><a href="index.html" style="color: #FFFFFF">Home</a><br>
+							<td><a href="index.aspx" style="color: #FFFFFF">Home</a><br>
 							</td>
 							<td>
-								<a href="sedan.html" style="color: #FFFFFF">Sedan</a>
+								<a href="products.aspx" style="color: #FFFFFF">Products</a>
 							</td>
 							<td>
-								<a href="admin.html" style="color: #FFFFFF">Administrator Page</a>
+								<a href="admin.aspx" style="color: #FFFFFF">Administrator Page</a>
 							</td>
 
 						</tr>
 						<tr>
-							<td><a href="support.html" style="color: #FFFFFF">Support</a></td>
-							<td><a href="suv.html" style="color: #FFFFFF">SUV</a></td>
-							<td><a href="add.html" style="color: #FFFFFF">Add Product</a></td>
+							<td><a href="support.aspx" style="color: #FFFFFF">Support</a></td>
+							<td><a href="ContactList.aspx" style="color: #FFFFFF">Contact List</a></td>
+							<td><a href="add.aspx" style="color: #FFFFFF">Add Product</a></td>
 						</tr>
 						<tr>
-							<td><a href="about.html" style="color: #FFFFFF">About Us</a></td>
-							<td><a href="sports.html" style="color: #FFFFFF">Sports</a></td>
+							<td><a href="about.aspx" style="color: #FFFFFF">About Us</a></td>
+							<td></td>
 							<td></td>
 						</tr>
 						<tr>
-							<td><a href="contactus.html" style="color: #FFFFFF">Contact Us</a></td>
-							<td><a href="pickup.html" style="color: #FFFFFF">Pickup Truck</a></td>
+							<td><a href="contactus.aspx" style="color: #FFFFFF">Contact Us</a></td>
+							<td></td>
 							<td>&nbsp;</td>
 						</tr>
 					</table><!--end of table-->
@@ -87,11 +78,11 @@
 					<li class="firstLi"><h4>Helpful Links</h4>
 					<hr>
 					<ul class="secondLi">
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="products.html">Products</a></li>
-						<li><a href="contactus.html">Contact Us</a></li>
-						<li><a href="support.html">Support</a></li>
-						<li><a href="sitemap.html">Sitemap</a></li>
+						<li><a href="about.aspx">About Us</a></li>
+						<li><a href="products.aspx">Products</a></li>
+						<li><a href="contactus.aspx">Contact Us</a></li>
+						<li><a href="support.aspx">Support</a></li>
+						<li><a href="sitemap.aspx">Sitemap</a></li>
 					</ul></li>
 					<li><h4>Contact Us</h4>
 					<hr><p>Carworld Incorporated <br>
@@ -102,7 +93,7 @@
 					</li>
 					<li><h4>Administrator</h4>
 						<hr>
-						<a href="admin.html">Admin Page</a>
+						<a href="admin.aspx">Admin Page</a>
 					</li>
 					<li class="lastLi"><h4>Socialize with us</h4>
 						<hr>
