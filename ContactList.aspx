@@ -1,7 +1,7 @@
 ﻿<!-- This script displays the parsed guest book content in a table,
 using the GridView control in ASP.NET.
 -->
-<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ViewContact.aspx.vb" Inherits="ViewContact" %>
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contactlist.aspx.vb" Inherits="contactlist" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -56,7 +56,7 @@ using the GridView control in ASP.NET.
              <asp:BoundField HeaderText="Phone" DataField="Phone" />
              <asp:BoundField HeaderText="Gender" DataField="Gender" />
              <asp:BoundField HeaderText="Purpose" DataField="Purpose" />
-             <asp:BoundField HeaderText="How did you find us?" DataField="How did you find us?" />
+             <asp:BoundField HeaderText="How did you hear about us?" DataField="How did you find us?" />
              <asp:BoundField HeaderText="Comments" DataField="Comments" HtmlEncode="false" />
              </Columns>
               </asp:GridView>

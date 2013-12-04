@@ -1,6 +1,6 @@
 body{
 	background-color: black;
-	background-image: url('../images/pattern2.jpg');
+	background-image: url('../images/elegant.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -197,7 +197,7 @@ ul
 	border-radius: 6px;
 	float: right;
 	width: 480px;
-	height: 600px;
+	height: 500px;
 	font-family: sans-serif;
 	background:rgba(255, 204, 153, 0.75);
 	margin-bottom: 30px;
@@ -218,7 +218,7 @@ ul
 	border-radius: 6px;
 	float: left;
 	width: 480px;
-	height: 600px;
+	height: 500px;
 	font-family: sans-serif;
 	font-weight: bold;
 	background:rgba(255, 204, 153, 0.75);
@@ -340,6 +340,14 @@ li.first img{
 #catalogue li a{
 	border:none;
 
+}
+
+.gridStyle{
+     border-right: 2px solid #A7A6AA;
+    border-bottom: 2px solid #A7A6AA;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    padding: 4px;
 }
 .cars{
 	float: left;
