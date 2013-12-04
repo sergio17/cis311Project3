@@ -27,7 +27,16 @@
                         <div id="navMenu" align="center">
                                         <ul class="nav">
                                                 <li><a href="index.aspx">Home</a></li>
-                                                <li><a href="products.aspx">Products</a></li>
+                                                <li><a href="products.aspx">Products</a>
+                                                <ul>
+                                                        <li><a href="sedan.aspx">Sedan</a></li>
+                                                        <li><a href="suv.aspx">SUV</a></li>
+                                                        <li><a href="sports.aspx">Sports</a></li>
+                                                        <li><a href="pickup.aspx">Pickup Truck</a></li>
+
+                                                </ul>
+
+                                                </li>
                                                 <li><a href="support.aspx">Support</a>
                                                 <li><a href="about.aspx">About Us</a></li>
                                                 <li><a href="contactus.aspx">Contact Us</a></li>
@@ -196,11 +205,11 @@
 					<li class="firstLi"><h4>Helpful Links</h4>
 					<hr>
 					<ul class="secondLi">
-						<li><a href="about.aspx">About Us</a></li>
-						<li><a href="products.aspx">Products</a></li>
-						<li><a href="contactus.aspx">Contact Us</a></li>
-						<li><a href="support.aspx">Support</a></li>
-						<li><a href="sitemap.aspx">Sitemap</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="support.html">Support</a></li>
+						<li><a href="sitemap.html">Sitemap</a></li>
 					</ul></li>
 					<li><h4>Contact Us</h4>
 					<hr><p>Carworld Incorporated <br>
@@ -211,7 +220,7 @@
 					</li>
 					<li><h4>Administrator</h4>
 						<hr>
-						<a href="admin.aspx">Admin Page</a>
+						<a href="admin.html">Admin Page</a>
 					</li>
 					<li class="lastLi"><h4>Socialize with us</h4>
 						<hr>

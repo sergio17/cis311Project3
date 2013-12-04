@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 	<head>
@@ -14,7 +14,7 @@
 	<body>
 		<div id="container">
 			<div id="header">
-				<div id="logo"><a href="index.aspx"><img src="./images/globe.gif"></a></div><!--end of logo-->
+				<div id="logo"><a href="index.html"><img src="./images/globe.gif"></a></div><!--end of logo-->
 				<form id="cse-search-box" action="http://google.com/cse">
   				<input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here" />
 				  <input type="hidden" name="ie" value="UTF-8" />
@@ -23,11 +23,20 @@
 				</form><!--end of form-->
 				<div id="navMenu" align="center">
 					<ul class="nav">
-						<li><a href="index.aspx">Home</a></li>
-						<li><a href="products.aspx">Products</a></li>
-						<li><a href="support.aspx">Support</a>
-						<li><a href="about.aspx">About Us</a></li>
-						<li><a href="contactus.aspx">Contact Us</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a>
+						<ul>
+							<li><a href="sedan.html">Sedan</a></li>
+							<li><a href="suv.html">SUV</a></li>
+							<li><a href="sports.html">Sports</a></li>
+							<li><a href="pickup.html">Pickup Truck</a></li>
+
+						</ul>
+
+						</li>
+						<li><a href="support.html">Support</a>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
 					</ul>
 				</div>
 							
@@ -55,10 +64,10 @@
 				<p id="hoursofOp">We are open from 10am to 11:30pm, 7 days a week. We are also open on most major holidays except for new years.</p>
 				<a href="#header">Back to the top</a>
 				<h3>Where can I get a quote?</h3>
-				<p id="quote">Give us a call at our toll free <a href="contactus.aspx">number</a> or stop by at our location and we will gladly help you. We'll give you the best price that satisfies your price budget.</p>
+				<p id="quote">Give us a call at our toll free <a href="contactus.html">number</a> or stop by at our location and we will gladly help you. We'll give you the best price that satisfies your price budget.</p>
 				<a href="#header">Back to the top</a>
 				<h3>What is the best way to contact a representative?</h3>
-				<p id="representative">If you need more help we have representatives on standby ready to help with any particular questions you may have when it comes to finding a vehicle. So feel free to contact us anytime via email or our 24 hour hotline. Click <a href="contactus.aspx">here</a> for more info. </p>
+				<p id="representative">If you need more help we have representatives on standby ready to help with any particular questions you may have when it comes to finding a vehicle. So feel free to contact us anytime via email or our 24 hour hotline. Click <a href="contactus.html">here</a> for more info. </p>
 				<a href="#header">Back to the top</a>
 				<h3 id="employment">Employment Opportunities</h3>
 				<p>We provide opportunities for employment. If you love to interact with customers and have a can do attitude attitude then please email us our resume and we'll will get back to you as soon as possible</p>
@@ -81,11 +90,11 @@
 					<li class="firstLi"><h4>Helpful Links</h4>
 					<hr>
 					<ul class="secondLi">
-						<li><a href="about.aspx">About Us</a></li>
-						<li><a href="products.aspx">Products</a></li>
-						<li><a href="contactus.aspx">Contact Us</a></li>
-						<li><a href="support.aspx">Support</a></li>
-						<li><a href="sitemap.aspx">Sitemap</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="support.html">Support</a></li>
+						<li><a href="sitemap.html">Sitemap</a></li>
 					</ul></li>
 					<li><h4>Contact Us</h4>
 					<hr><p>Carworld Incorporated <br>
@@ -96,7 +105,7 @@
 					</li>
 					<li><h4>Administrator</h4>
 						<hr>
-						<a href="admin.aspx">Admin Page</a>
+						<a href="admin.html">Admin Page</a>
 					</li>
 					<li class="lastLi"><h4>Socialize with us</h4>
 						<hr>

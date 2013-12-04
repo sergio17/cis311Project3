@@ -13,6 +13,7 @@
 	</head>
 	<body>
 		<div id="container">
+			<div id="Div1">
 			<div id="header">
 				<div id="logo"><a href="index.aspx"><img src="./images/globe.gif"/></a></div>
 				<form id="cse-search-box" action="http://google.com/cse">
@@ -32,7 +33,7 @@
 					</ul>
 			</div>
 			</div>
-			<div id="content" style="height:900px;width:960px;align="center">
+			<div id="content" style="height:1100px;width:960px;align="center">
 				<center><h1> About CarWorld!</h1><b>
 				
 				<div id="details" style="width:900px;text-align:left;">

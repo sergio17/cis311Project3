@@ -70,11 +70,11 @@ using the GridView control in ASP.NET.
 					<li class="firstLi"><h4>Helpful Links</h4>
 					<hr>
 					<ul class="secondLi">
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="products.html">Products</a></li>
-						<li><a href="contactus.html">Contact Us</a></li>
-						<li><a href="support.html">Support</a></li>
-						<li><a href="sitemap.html">Sitemap</a></li>
+						<li><a href="about.aspx">About Us</a></li>
+						<li><a href="products.aspx">Products</a></li>
+						<li><a href="contactus.aspx">Contact Us</a></li>
+						<li><a href="support.aspx">Support</a></li>
+						<li><a href="sitemap.aspx">Sitemap</a></li>
 					</ul></li>
 					<li><h4>Contact Us</h4>
 					<hr><p>Carworld Incorporated <br>
@@ -85,7 +85,7 @@ using the GridView control in ASP.NET.
 					</li>
 					<li><h4>Administrator</h4>
 						<hr>
-						<a href="admin.html">Admin Page</a>
+						<a href="admin.aspx">Admin Page</a>
 					</li>
 					<li class="lastLi"><h4>Socialize with us</h4>
 						<hr>

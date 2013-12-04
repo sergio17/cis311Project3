@@ -1,5 +1,7 @@
 ﻿<!DOCTYPE html>
+<script runat="server">
 
+</script>
 <html>
 	<head>
 
@@ -42,24 +44,33 @@
 			</div>
 			</div>
 			<div id="content">
-				
-
+                <div id="adminSection"><h1>Administrator Page</h1>
+				    <div id="buttonArea">
+					    <a href="add.aspx" class="addButton">New Product</a>
+				    </div>
+			    </div>
                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
-                    DataKeyNames="ID" DataSourceID="SqlDataSource1" Height="298px" 
-                    Width="960px" CssClass=gridStyle>
+                    DataKeyNames="ID" DataSourceID="SqlDataSource1" CssClass="gridStyle">
                     <Columns>
-                        <asp:ImageField DataImageUrlField="imageSource">
-                        </asp:ImageField>
                         <asp:BoundField DataField="ID" HeaderText="ID" InsertVisible="False" 
                             ReadOnly="True" SortExpression="ID" />
+                        <asp:ImageField DataImageUrlField="imageSource" HeaderText="Images" ControlStyle-Height="100px" ControlStyle-Width="100px">
+<ControlStyle Height="100px" Width="100px"></ControlStyle>
+                        </asp:ImageField>
+                        <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
                         <asp:BoundField DataField="description" HeaderText="description" 
                             SortExpression="description" />
                         <asp:BoundField DataField="price" HeaderText="price" SortExpression="price" />
                         <asp:BoundField DataField="stockQuantity" HeaderText="stockQuantity" 
                             SortExpression="stockQuantity" />
-                        <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
+                        <asp:HyperLinkField DataNavigateUrlFields="id" 
+                            DataNavigateUrlFormatString="edit.aspx?id={0}" HeaderText="Edit Product" 
+                            NavigateUrl="~/edit.aspx" Text="Edit" />
+                        <asp:CommandField ShowDeleteButton="True" />
                     </Columns>
                 </asp:GridView>
+
+
 
 
 			    <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
@@ -89,6 +100,8 @@
                 </asp:SqlDataSource>
 
 
+
+
 			</div>
 					<div id="footer">
 				<ul class="flist">
@@ -110,7 +123,7 @@
 					</li>
 					<li><h4>Administrator</h4>
 						<hr>
-						<a href="admin.html">Admin Page</a>
+						<a href="admin.aspx">Admin Page</a>
 					</li>
 					<li class="lastLi"><h4>Socialize with us</h4>
 						<hr>
